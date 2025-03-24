@@ -89,10 +89,10 @@ Desarrollar un modelo robusto capaz de distinguir entre **Apis** y **Bombus** a 
 
 | Modelo                | F1-score máx. | Threshold óptimo  |
 |---------------------- |---------------|------------------ |
-| Sin Transfer Learning | 0.9531        | 0.4612            |
-| Con Transfer Learning | 0.9549        | 0.42              |
+| Sin DataAugmentation  | 0.9573        | 0.485             |
+| Con DataAugmentation  | 0.9570        | 0.506             |
 
-Ambos modelos muestran alta precisión, pero el uso de Transfer Learning + Augmentation mejora ligeramente la generalización.
+Ambos modelos muestran alta precisión y un rendimiento muy similar.
 
 ---
 
